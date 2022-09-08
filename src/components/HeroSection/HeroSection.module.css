@@ -1,32 +1,29 @@
 .container_hero {
-  background: url("../../images/Image-hero.png"), linear-gradient(
-    314.72deg,
-    #c86dd7 -1.5%,
-    #7e49c3 39.43%,
-    #5912ac 86.02%
-  );
+  background: url("../../images/Image-hero.png"),
+    linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
+  background-position: center;
   height: 616px;
-
 }
 
 .section_container {
+  margin-top: 170px ;
   display: flex;
   justify-content: space-around;
-  border: solid .5px red;
-  margin-top: 50px;
-
+  margin-top: 130px;
 }
 
 .section_container h1 {
   font-size: 40px;
   font-weight: 500;
   color: #fff;
+  margin-bottom: 24px;
 }
 
 .section_container p {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
+  margin-bottom: 40px;
 }
 
 .section_container a {
@@ -36,7 +33,7 @@
 }
 
 .section_container button {
-  background: #00A870;
+  background: #00a870;
   width: 48px;
   height: 48px;
   border-radius: 100%;
@@ -45,6 +42,7 @@
   font-weight: 500;
   color: #fff;
   text-align: center;
+  margin-right: 16px;
 }
 
 .texts_container {
@@ -52,11 +50,41 @@
   margin: auto 0;
   display: flex;
   flex-direction: column;
-  border: solid blanchedalmond .5px;
-  
 }
 
 .play_container {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .section_container .card_img {
+    display: none;
+  }
+
+  .texts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .section_container h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 0 44px
+  }
+
+  .section_container p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .section_container a {
+    font-size: 16px;
+  }
+
+  
 }
