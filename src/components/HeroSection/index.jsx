@@ -7,7 +7,6 @@ import iconPlay from "../../images/IconPlay.svg";
 function HeroSection() {
   return (
     <div className={styles.container_hero}>
-      <div className={styles.transparency_film}></div>
       <Header />
       <section className={styles.section_container}>
         <div className={styles.texts_container}>
