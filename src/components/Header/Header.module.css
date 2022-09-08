@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 34px;
+}
+
+.navigation_area {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.navigation_area nav span {
+	margin-left: 36px;
+}
+
+.navigation_area nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+}
+
+.login_area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_become {
+  border: none;
+  background: #00a870;
+  width: 234px;
+  height: 44px;
+  border-radius: 4px;
+	margin-right: 23px;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn_login {
+  width: 46px;
+  height: 26px;
+  background: transparent;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .navigation_area nav {
+    display: none;
+  }
+
+  .btn_login {
+		display: none;
+
+  }
+
+	.container {
+		padding: 0 16px;
+	}
+
+	.btn_become {
+		margin-left: 16px;
+	}
+}
