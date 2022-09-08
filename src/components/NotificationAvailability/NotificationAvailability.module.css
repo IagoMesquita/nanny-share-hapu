@@ -10,6 +10,8 @@
 
 .container img {
     margin-right: 32px;
+		width: 56px;
+		height: 56px;
 }
 
 .container a {
@@ -27,3 +29,29 @@
 	/* font-family: Helvetica Neue; */
 }
 
+@media (max-width: 768px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 216px;
+
+		text-align: center;
+	}
+
+	.container img {
+		margin-top: 20px;
+		margin-bottom: 16px;
+	}
+
+	.container a {
+		margin-bottom: 12px;
+		padding: 0 74px;
+	}
+
+	.container h4 {
+		font-size: 14px;
+		margin-bottom: 12px;
+		padding: 0 17px;
+	}
+}

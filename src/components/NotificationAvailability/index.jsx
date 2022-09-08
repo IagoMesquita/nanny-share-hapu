@@ -6,10 +6,8 @@ function NotificationAvailability() {
   return (
     <section className={styles.container}>
       <img src={profile} alt="imagem-da-babá" />
-      
-        <a href="default">Sarah’s day care available now in North Sydney</a>
-				<h4>Wednesday, Thursday, Friday - 7:30 - 5:30</h4>
-        
+      <a href="default">Sarah’s day care available now in North Sydney</a>
+      <h4>Wednesday, Thursday, Friday - 7:30 - 5:30</h4>
     </section>
   );
 }
