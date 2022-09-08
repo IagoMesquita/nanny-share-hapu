@@ -12,3 +12,18 @@
     margin-right: 32px;
 }
 
+.container a {
+	color: #5E20A4;
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 2px;
+}
+
+.container h4 {
+	color: #000000;
+	font-weight: 500;
+	font-size: 16px;
+	margin-right: 2px;
+	/* font-family: Helvetica Neue; */
+}
+
