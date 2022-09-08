@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica neus;
+    height: 112px;
+    background: #fff;
+    border: solid 1px #dfdfdf
+}
+
+.container img {
+    margin-right: 32px;
+}
+
