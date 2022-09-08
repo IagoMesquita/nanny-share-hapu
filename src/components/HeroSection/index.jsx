@@ -15,14 +15,14 @@ function HeroSection() {
             Hapu is Airbnb for nanny share. Share your home, nanny and costs and
             create new flexible, affordable solutions in childcare.
           </p>
-          <div className={ styles.play_container }>
+          <div className={styles.play_container}>
             <button>
               <img src={iconPlay} alt="" />
             </button>
             <a href="default">See hapu in action (27 seconds)</a>
           </div>
         </div>
-        <img src={manageNanny} alt="card-de-gerenciamente-de-babas" />
+        <img className={ styles.card_img } src={manageNanny} alt="card-de-gerenciamente-de-babas" />
       </section>
     </div>
   );
