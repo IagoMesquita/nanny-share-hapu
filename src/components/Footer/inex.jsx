@@ -25,7 +25,7 @@ function Footer() {
       </div>
       <div className={styles.container_nav_services}>
         <img src={logo} alt="logo-hapu" />
-        <nav>
+        <nav className={styles.nav_services}>
           <span>
             <a href="default">Share Your Nanny</a>
           </span>
@@ -39,7 +39,7 @@ function Footer() {
             <a href="default">Terms & Privacy</a>
           </span>
         </nav>
-        <nav>
+        <nav className={styles.nav_social }>
           <a href="default">
             <img src={iconFacebook} alt="icone-facebook" />
           </a>
