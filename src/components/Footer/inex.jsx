@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 // logos
-import logo from "../../images/Hapu-logo.png";
+import logo from "../../images/LogoHapu.svg";
 import iconCalendar from "../../images/IconCalendar.svg";
 import iconFacebook from "../../images/Facebook.svg";
 import iconIsntagram from "../../images/Instagram.svg";
@@ -10,18 +10,20 @@ import iconTwitter from "../../images/Twitter.svg";
 
 function Footer() {
   return (
-    <footer className={ styles.container_footer}>
-      <div className={ styles.container_create }>
+    <footer className={styles.container_footer}>
+      <div className={styles.container_create}>
         <h2>Become a nanny share host</h2>
-        <p>Takes less than 5 minutes to get started</p>
-        <button>
-          <img src={iconCalendar} alt="" />
-          <p>Create Your Nanny Share</p>
-          <p>Takes less than 5 minutes</p>
+        <p className="p">Takes less than 5 minutes to get started</p>
+        <button className={styles.btn_create}>
+          <img src={iconCalendar} alt="icone-calendario" />
+          <span className={styles.text_btn}>
+            <p>Create Your Nanny Share</p>
+            <p>Takes less than 5 minutes</p>
+          </span>
         </button>
         <a href="default">Or browse local nanny-shares</a>
       </div>
-      <div className={ styles.container_nav_services}>
+      <div className={styles.container_nav_services}>
         <img src={logo} alt="logo-hapu" />
         <nav>
           <span>

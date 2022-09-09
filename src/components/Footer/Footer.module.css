@@ -1,27 +1,90 @@
 .container_footer {
-    height: 540px;
-    background: #ffffff;
-    display: flex;
-    flex-direction: column;
+  height: 540px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
 
-    text-align: center;
+  text-align: center;
 }
 
+/* Primeira secção do Footer */
 .container_create {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.container_create h2 {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.container_create > p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.btn_create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 304px;
+  height: 68px;
+  border-radius: 4px;
+  background-color: #5e20a4;
+  margin-bottom: 24px;
+}
+
+.btn_create > img {
+  margin-right: 21px;
+}
+
+.text_btn {
+  display: flex;
+  flex-direction: column;
+
+  color: #ffffff;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text_btn > p:nth-child(1) {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+
+.text_btn > p:nth-child(2) {
+  font-size: 12px;
+}
+
+.container_create > a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e20a4;
+  text-align: center;
+}
+
+/* Segunda secção do Footer: Navegação Site */
 
 .container_nav_services {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
-/* .container_nav_services img {
-    width: 63.95px;
-    height: 20px;
-    color: #4A4A4A
+.container_nav_services > nav > span > a {
+  color: #3d3d3d;
+  font-weight: 500;
+  font-size: 14px;
+
+}
+/* .container_nav_services > img {
+  width: 63.95px;
+  height: 20px;
+  color: #3D3D3D;
 } */
