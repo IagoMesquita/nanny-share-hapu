@@ -1,11 +1,9 @@
-// import styles from "./NannyDiarySection.mdule.css";
+import styles from './NannyDiarySection.module.css';
 import icon from "../../images/ImageSection5.svg";
-
-import React from "react";
 
 function NannyDiarySection() {
   return (
-    <section>
+    <section className={ styles.section_container}>
       <img src={icon} alt="desenho de uma agenda e celular" />
       <h2>Coming soon: Nanny Share Daily Diary!</h2>
       <p>
