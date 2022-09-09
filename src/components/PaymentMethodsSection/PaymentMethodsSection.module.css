@@ -1,0 +1,24 @@
+.section_container {
+	margin-top: 96px;
+	margin-bottom: 96px;
+	display: flex;
+	justify-content: center;
+}
+
+.section_container > img {
+	margin-right: 44px;
+}
+
+.text_container {
+	text-align: left;
+	width: 484px;
+}
+
+.text_container > h2 {
+	margin-bottom: 40px;
+}
+
+.text_container > p {
+	margin-bottom: 40px;
+
+}

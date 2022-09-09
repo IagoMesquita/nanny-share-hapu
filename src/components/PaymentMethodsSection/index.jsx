@@ -1,13 +1,13 @@
 import styles from "./PaymentMethodsSection.module.css";
 import valuesImage from "../../images/ImageSection3.svg";
-
-import React from "react";
+import DividingLine from "../DividingLine";
 
 function PaymentMethodsSection() {
   return (
-    <section>
+    <>
+    <section className={styles.section_container}>
       <img src={valuesImage} alt="valores por hora" />
-      <div>
+      <div className={styles.text_container}>
         <h2>Shared payments made simple</h2>
         <p>
           Sometimes it’s hard enough just sharing a restaurant bill. Try sharing
@@ -21,6 +21,10 @@ function PaymentMethodsSection() {
 				</a>
       </div>
     </section>
+    <DividingLine/>
+
+    </>
+
   );
 }
 
