@@ -1,0 +1,46 @@
+.section_container {
+  margin-top: 120px;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px ;
+}
+
+.text_container {
+  text-align: left;
+  height: 392px;
+  width: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text_container > h2 {
+	font-weight: 500;
+  font-size: 28px;
+  color: #3d3d3d;
+}
+
+.text_container > p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+.text_container > p > a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5E20A4;
+}
+
+.text_container > a {
+  font-weight: 700; 
+  font-size: 16px;
+  color: #5E20A4;
+} 
+
+.span {
+  width: 784px;
+  border-bottom: solid #dfdfdf 2px;
+  margin: 0 auto;
+}
