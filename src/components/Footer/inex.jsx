@@ -24,7 +24,9 @@ function Footer() {
         <a href="default">Or browse local nanny-shares</a>
       </div>
       <div className={styles.container_nav_services}>
-        <img src={logo} alt="logo-hapu" />
+        <div className={styles.container_logo}>
+          <img src={logo} alt="logo-hapu" />
+        </div>
         <nav className={styles.nav_services}>
           <span>
             <a href="default">Share Your Nanny</a>
