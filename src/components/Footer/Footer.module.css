@@ -1,0 +1,27 @@
+.container_footer {
+    height: 540px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.container_create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_nav_services {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* .container_nav_services img {
+    width: 63.95px;
+    height: 20px;
+    color: #4A4A4A
+} */
