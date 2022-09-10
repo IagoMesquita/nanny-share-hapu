@@ -1,4 +1,4 @@
-# Under development...
+# Hapu nanny share 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -40,7 +40,7 @@ npm run build
 URL para o site
 
 ```bash
-Vercel
+https://hapu-nanny-share.vercel.app/
 ```
 
 
