@@ -2,30 +2,45 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Clonando Projeto
 
-### `npm start`
+Clone com SSH
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  git clone git@github.com:IagoMesquita/nanny-share-hapu.git
+```
+## Instalação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instale nanny-share-hapu com npm
 
-### `npm test`
+```bash
+  cd nanny-share-hapu
+  npm install 
+```
+    
+## Iniciar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Execute a aplicação 
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build da aplicação 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
+
+## Web Site
+
+URL para o site
+
+```bash
+Vercel
+```
+
 
