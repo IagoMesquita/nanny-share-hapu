@@ -23,7 +23,6 @@ function IntroSection() {
         <img src={notbook} alt="notbook e card com informações" />
       </section>
       <DividingLine/>
-      {/* <div className={styles.span}></div> */}
     </>
   );
 }

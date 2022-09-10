@@ -11,7 +11,7 @@
 
 .text_container {
   text-align: left;
-  width: 484px;
+  max-width: 484px;
 }
 
 .text_container > h2 {
@@ -33,3 +33,33 @@
   font-size: 16px;
   color: #5e20a4;
 }
+
+@media (max-width: 768px) {
+  .section_container {
+    margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section_container > img {
+    margin: 0;
+    margin: 40px;
+    max-width:312px;
+    max-height:230px;
+  }
+
+  .text_container {
+    text-align: center;
+  }
+
+  .text_container > h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .text_container > p {
+    margin-bottom: 24px;
+  }
+}
+

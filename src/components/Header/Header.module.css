@@ -5,15 +5,13 @@
 }
 
 .navigation_area {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .navigation_area nav span {
-	margin-left: 36px;
+  margin-left: 36px;
 }
 
 .navigation_area nav a {
@@ -36,7 +34,7 @@
   width: 234px;
   height: 44px;
   border-radius: 4px;
-	margin-right: 23px;
+  margin-right: 23px;
 
   color: #fff;
   font-size: 14px;
@@ -62,15 +60,14 @@
   }
 
   .btn_login {
-		display: none;
-
+    display: none;
   }
 
-	.container {
-		padding: 0 16px;
-	}
+  .container {
+    padding: 0 16px;
+  }
 
-	.btn_become {
-		margin-left: 16px;
-	}
+  .btn_become {
+    margin-left: 16px;
+  }
 }

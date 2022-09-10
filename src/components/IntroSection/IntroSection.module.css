@@ -3,13 +3,12 @@
 	display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 120px ;
 }
 
 .text_container {
   text-align: left;
   height: 392px;
-  width: 444px;
+  max-width: 444px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -39,8 +38,30 @@
   color: #5E20A4;
 } 
 
-.span {
-  width: 784px;
-  border-bottom: solid #dfdfdf 2px;
-  margin: 0 auto;
+@media (max-width: 768px) {
+  .section_container {
+    margin-top: 64px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .section_container > img {
+    margin-bottom: 24px;
+    width:304px;
+    height: 204px;
+  }
+
+  .text_container {
+    text-align: center;
+  }
+
+  .text_container > h2 {
+    font-size: 22px;
+  }
+
+  .text_container > p {
+    margin-bottom: 24px;
+  }
 }

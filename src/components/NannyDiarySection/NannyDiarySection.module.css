@@ -19,8 +19,25 @@
 }
 
 .section_container > p {
-  width: 784px;
+  max-width: 784px;
   font-weight: 400;
   font-size: 16px;
   color: #3d3d3d;
+}
+
+@media (max-width: 768px) {
+  .section_container {
+    margin: 64px 0;
+    text-align: center;
+  }
+
+  .section_container > img {
+    margin-bottom: 24px;
+  }
+
+  .section_container h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+
+  }
 }
