@@ -6,11 +6,4 @@ async function postUser(user) {
     return res;
 }
 
-// async function getUser(user) {
-//     const URL = `https://api.github.com/users/${user}`;
-//     const res = await axios.get(URL);
-
-//     return res;
-// }
-
 export default postUser;

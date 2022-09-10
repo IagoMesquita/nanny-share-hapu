@@ -22,7 +22,11 @@ function HeroSection() {
             <a href="default">See hapu in action (27 seconds)</a>
           </div>
         </div>
-        <img className={ styles.card_img } src={manageNanny} alt="card-de-gerenciamente-de-babas" />
+        <img
+          className={styles.card_img}
+          src={manageNanny}
+          alt="card-de-gerenciamente-de-babas"
+        />
       </section>
     </div>
   );

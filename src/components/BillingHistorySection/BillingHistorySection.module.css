@@ -27,6 +27,11 @@
   font-weight: 500;
   font-size: 16px;
   color: #5e20a4;
+  transition: 0.5s;
+}
+
+.section_container > a:hover {
+  color: #6e08e4;
 }
 
 @media (max-width: 768px) {
@@ -47,6 +52,5 @@
   .section_container > a {
     margin: 0;
     margin-top: 24px;
-
   }
 }

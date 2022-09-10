@@ -41,7 +41,7 @@ function Footer() {
             <a href="default">Terms & Privacy</a>
           </span>
         </nav>
-        <nav className={styles.nav_social }>
+        <nav className={styles.nav_social}>
           <a href="default">
             <img src={iconFacebook} alt="icone-facebook" />
           </a>

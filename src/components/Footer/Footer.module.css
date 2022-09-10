@@ -42,8 +42,12 @@
   margin-bottom: 24px;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 
+.btn_create:hover {
+  background-color: #6507d2;
+}
 .btn_create > img {
   margin-right: 21px;
 }
@@ -73,6 +77,9 @@
   text-align: center;
 }
 
+.container_create > a:hover {
+  color: #6e08e4;
+}
 /* Segunda secção do Footer: Navegação Site */
 .container_nav_services {
   display: flex;
@@ -93,6 +100,11 @@
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav_services a:hover {
+  border-bottom: 1px solid #5d5c5c;
 }
 
 /* Segunda secção do Footer: Redes Sociais */
@@ -101,9 +113,18 @@
   column-gap: 16px;
 }
 
+.nav_social > a > img {
+  transition: 0.5s;
+  border-radius: 100%;
+}
+
+.nav_social > a > img:hover {
+  background-color: #838181;
+}
+
 .container_logo {
   width: 175px;
-  text-align: start; 
+  text-align: start;
 }
 
 /* Última secção */
@@ -150,7 +171,7 @@
     margin-bottom: 24px;
   }
 
-  .container_footer > p  {
+  .container_footer > p {
     padding-bottom: 10px;
   }
 }

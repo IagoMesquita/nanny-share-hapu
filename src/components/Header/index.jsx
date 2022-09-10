@@ -20,7 +20,7 @@ function Header() {
       </div>
       <div className={styles.login_area}>
         <button className={styles.btn_become}>Become a Nanny Share Host</button>
-        <button className={styles.btn_login}>Sign In</button>
+        <h5 className={styles.text_login}>Sing In</h5>
       </div>
     </header>
   );
