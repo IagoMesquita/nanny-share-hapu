@@ -16,7 +16,7 @@ function BillingHistorySection() {
         <a href="default">Read how Hapu’s tribal background defines our app</a>
         <img src={tableImage} alt="tabela com histórico dos serviços" />
       </section>
-      <DividingLine/>
+      <DividingLine />
     </>
   );
 }

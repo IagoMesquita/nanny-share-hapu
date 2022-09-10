@@ -22,7 +22,7 @@ function IntroSection() {
         </div>
         <img src={notbook} alt="notbook e card com informações" />
       </section>
-      <DividingLine/>
+      <DividingLine />
     </>
   );
 }
