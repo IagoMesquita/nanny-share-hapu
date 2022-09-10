@@ -53,7 +53,13 @@
   font-weight: 500;
   font-size: 14px;
   text-align: center;
+  transition: .50s;
 }
+
+.form_container button:hover {
+  background-color: #04c883;
+  font-weight: 700;
+} 
 
 @media (max-width: 768px) {
   .section_container {
