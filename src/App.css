@@ -1,11 +1,9 @@
-
 body {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 main {
-  /* width: 984px; */
-  width: 70vw;
+  /* border: red solid 1px; */
+  width: 90vw;
   margin: 0 auto;
-  /* border: solid 1px red; */
 }
