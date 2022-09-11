@@ -141,11 +141,17 @@
   }
 
   .container_create h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
     font-size: 22px;
   }
 
   .container_create > p {
     font-size: 16px;
+  }
+
+  .container_create > a {
+    margin-bottom: 25px;
   }
 
   .container_nav_services {
