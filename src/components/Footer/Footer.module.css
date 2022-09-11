@@ -180,4 +180,8 @@
   .container_footer > p {
     padding-bottom: 10px;
   }
+
+  .footer_p {
+    margin: 24px 0;
+  }
 }

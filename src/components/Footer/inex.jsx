@@ -53,7 +53,7 @@ function Footer() {
           </a>
         </nav>
       </div>
-      <p>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
+      <p className={styles.footer_p}>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
     </footer>
   );
 }
